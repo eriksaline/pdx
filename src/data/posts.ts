@@ -10,6 +10,48 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "portland-food-cart-pod-scene",
+    title: "Inside Portland's Food Cart Pods: Where Community Meets Cuisine",
+    date: "2026-06-07",
+    excerpt:
+      "Step into one of Portland's iconic food cart pods — where sizzling grills, global flavors, and neighborhood regulars gather under canopies in the shadow of the city's eclectic architecture.",
+    content: `There's a moment when you round the corner and the smell hits you before the scene does — cumin and charred onion, fresh tortillas warming on a comal, maybe a wok flashing blue flame. Welcome to a Portland food cart pod, the beating heart of the city's most democratic dining experience.
+
+**More Than a Meal**
+
+Portland's food cart pods aren't just places to eat. They're neighborhood gathering spots, culinary incubators, and living proof that great food doesn't need a fancy storefront. The image captured here — a bustling cart under a canopy, backed by a warm brick facade — is a scene repeated dozens of times across the city, each pod with its own personality.
+
+What makes these pods special is the intimacy. You're standing feet from the cook, watching your food being made, chatting with the person next to you in line. There's no pretense, no white tablecloths — just really good food served with genuine pride.
+
+**The Architecture of a Pod**
+
+Look at the setup: a compact cart or trailer, often with a serving window facing a shared seating area. Canopies and tents shield diners from Portland's frequent drizzle. Picnic tables, string lights, and the occasional potted plant create an atmosphere that's part backyard cookout, part street market.
+
+The brick buildings that often back these pods tell their own story — many are repurposed industrial or commercial spaces that have found new life as anchors for these micro-restaurant communities. It's adaptive reuse at its most delicious.
+
+**What to Order**
+
+The beauty of a food cart pod is variety. At a single pod you might find:
+
+- **Authentic Mexican** — al pastor tacos carved from a vertical spit, with fresh pineapple and handmade tortillas
+- **Thai street food** — pad see ew with that elusive "wok hei" smoky char, or a proper boat noodle soup
+- **Middle Eastern** — shawarma wraps loaded with pickled turnips and garlic sauce
+- **Korean fusion** — gochujang-glazed fried chicken in a bento box
+- **Vegan everything** — because this is Portland, and plant-based options are everywhere
+
+**The Regulars**
+
+Every pod has its regulars. The construction worker who gets the same lunch every day. The couple on a cheap date. The remote worker with a laptop and a cold brew. The food cart pod is Portland's great equalizer — everyone eats side by side.
+
+**Finding Your Pod**
+
+Portland has over 500 food carts organized into pods across the city. Some of the most beloved include Cartopia on SE Hawthorne, Prost Marketplace on N Mississippi, and the Portland Mercado on SE 72nd. But the best pod might be the one in your own neighborhood — the one you stumble upon by accident and return to every week.
+
+Next time you're in Portland, skip the sit-down restaurant. Follow the smells, find the canopy, and eat like a local. The food is better, the price is friendlier, and the stories are richer.`,
+    imagePlaceholder: "/images/food-cart-pod.jpg",
+    tags: ["Food", "Neighborhoods", "Culture", "Budget Travel"],
+  },
+  {
     slug: "exploring-portlands-best-food-carts",
     title: "Exploring Portland's Best Food Carts",
     date: "2026-03-10",
