@@ -49,10 +49,18 @@ export default function Home() {
               key={post.slug}
               className="bg-white rounded-2xl shadow-sm border border-stone-200 overflow-hidden hover:shadow-md transition-shadow"
             >
-              {/* Image placeholder */}
-              <div className="h-48 bg-gradient-to-br from-emerald-100 to-emerald-200 flex items-center justify-center">
-                <span className="text-6xl opacity-40">📸</span>
-              </div>
+              {/* Image */}
+              {post.imagePlaceholder.endsWith(".svg") ? (
+                <div className="h-48 bg-gradient-to-br from-emerald-100 to-emerald-200 flex items-center justify-center">
+                  <span className="text-6xl opacity-40">📸</span>
+                </div>
+              ) : (
+                <img
+                  src={post.imagePlaceholder}
+                  alt={post.title}
+                  className="w-full h-48 object-cover"
+                />
+              )}
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
                   {post.tags.map((tag) => (

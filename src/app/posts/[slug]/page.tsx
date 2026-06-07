@@ -79,10 +79,18 @@ export default async function BlogPostPage({
         &larr; Back to all posts
       </Link>
 
-      {/* Image placeholder */}
-      <div className="w-full h-64 sm:h-80 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-2xl mb-8 flex items-center justify-center">
-        <span className="text-7xl opacity-40">📸</span>
-      </div>
+      {/* Image */}
+      {post.imagePlaceholder.endsWith(".svg") ? (
+        <div className="w-full h-64 sm:h-80 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-2xl mb-8 flex items-center justify-center">
+          <span className="text-7xl opacity-40">📸</span>
+        </div>
+      ) : (
+        <img
+          src={post.imagePlaceholder}
+          alt={post.title}
+          className="w-full h-64 sm:h-80 object-cover rounded-2xl mb-8"
+        />
+      )}
 
       <div className="flex flex-wrap gap-2 mb-4">
         {post.tags.map((tag) => (
