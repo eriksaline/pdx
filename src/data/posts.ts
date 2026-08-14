@@ -10,6 +10,36 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "portland-craft-cocktail-hour",
+    title: "Portland After Dark: The Art of the Craft Cocktail",
+    date: "2026-08-14",
+    excerpt:
+      "A close-up of a spice-rimmed craft cocktail captures Portland's after-dark magic — where neighborhood bars turn simple spirits into edible art. Here's where to find your own perfect PDX pour.",
+    content: `Portland's reputation is built on coffee, beer, and food carts — but spend one evening under the city's amber glow and you'll discover another obsession: the craft cocktail. The image that landed in our #pdx channel says it all. A close-up of a rocks glass catching the light, filled with a pale, opaque peach-and-grapefruit-hued pour, a fine cap of foam, and clear cubes of ice that look carved rather than cubed. The rim is dusted with coarse salt and a reddish-brown spice — the unmistakable hand of Tajin or a house smoked-salt blend — and a sliver of dehydrated citrus wheel perches at the edge. It sits on a warm wooden bar top, lit like a small still life. This is Portland drinking, distilled to its essence.
+
+**Why Portland Does Cocktails Differently**
+
+The same do-it-yourself spirit that fuels the food cart pods and the third-wave coffee bars runs straight through the city's cocktail programs. Bartenders here treat a drink like a dish: house-made syrups, infused salts, fresh-pressed juices, and garnishes dehydrated in-house. There's a suspicion of anything artificial and a quiet pride in provenance. Order a Marg or a Paloma variant and you're as likely to get a conversation about the agave as a quick pour.
+
+**Where to Find Your Pour**
+
+The neighborhoods that show up in snapshots like this one tend to be the Pearl District, the Central Eastside, and the Alberta Arts District — clusters of low-key bars where the lighting flatters the ice and the playlists lean jazz or soul. Look for spots that list a seasonal menu, batch their own bitters, and actually ask what you like before building something. Happy hour (roughly 4 to 6 p.m.) is the move: better prices, same care, fewer crowds.
+
+**A Visitor's Game Plan**
+
+- **Arrive early.** The best bars fill fast and the good seats are the ones at the rail.
+- **Talk to the bartender.** Portland mixologists love a custom order — tell them a spirit or a mood and let them run.
+- **Share the garnish story.** That spice rim isn't decoration; it's the point. Ask what's in it.
+- **Pace yourself.** These are strong, spirit-forward drinks. The Rose City rewards the slow sipper.
+
+**The Bigger Picture**
+
+A single glass on a wooden bar is a tiny window into a city that takes pleasure seriously but never pretentiously. Portland's cocktail culture isn't about spectacle — it's about a craftsman, a few good ingredients, and the patience to do something small, beautifully. Next time you're in town, skip the chain lounge, find the unmarked door, and order the thing you can't pronounce. You might just find your favorite PDX moment waiting at the bottom of a rocks glass.`,
+    imagePlaceholder: "/images/portland-craft-cocktail.jpg",
+    tags: ["Food", "Neighborhoods", "Culture"],
+  },
+
+  {
     slug: "portland-food-cart-pod-scene",
     title: "Inside Portland's Food Cart Pods: Where Community Meets Cuisine",
     date: "2026-06-07",
